@@ -2,6 +2,9 @@
 // Set library for SSD1306 SPI 0.96" OLED display TESTED OK! (128 bytes buffer)
 // U8G2_SSD1306_128X64_NONAME_1_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 
+// Set library for SSD1306 I2C 0.96" OLED display TESTED OK! bisky
+U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);/*A4=SDA; A5=SCK*/
+
 // Set library for SH1106 SPI 1.3" OLED display TESTED OK! (128 bytes buffer)
 //U8G2_SH1106_128X64_NONAME_1_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 
